@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Booking Rest API Automation Test Suite">
+	<listeners>
+		<listener class-name="com.test.RestAPITestBase.TestListener" />
+	</listeners>
+  <test thread-count="5" name="Rest API Automation Test ">
+	  <classes>
+		  <class name="com.test.RestAsureAPI.CreateBookingAPITest"/>
+		  <class name="com.test.RestAsureAPI.GetBookingAPITest"/>
+		  <class name="com.test.RestAsureAPI.UpdateBookingAPITest"/>
+		  <class name="com.test.RestAsureAPI.DeleteBookingAPITest"/>
+	  </classes>
+  </test> 
+</suite> 

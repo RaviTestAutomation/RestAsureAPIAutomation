@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Booking Rest API Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.test.RestAPITestBase.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Rest API Automation Test (failed)">
+    <classes>
+      <class name="com.test.RestAsureAPI.UpdateBookingAPITest">
+        <methods>
+          <include name="updateBookingTest" invocation-numbers="0"/>
+          <include name="generateToken"/>
+        </methods>
+      </class> <!-- com.test.RestAsureAPI.UpdateBookingAPITest -->
+    </classes>
+  </test> <!-- Rest API Automation Test (failed) -->
+</suite> <!-- Failed suite [Booking Rest API Automation Test Suite] -->

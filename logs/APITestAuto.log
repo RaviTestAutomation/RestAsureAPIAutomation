@@ -1,0 +1,42 @@
+16:26:37.088 [main] INFO  - [TestNG] Running:
+  C:\Users\MY PC\TestProjects\RestAsureAPI\src\test\resources\suites\RestAPITestSuite.xml
+
+16:26:41.256 [main] INFO  - Respnse :{"token":"08e2fe9f9d73801"}
+16:26:41.257 [main] INFO  - Access Token :08e2fe9f9d73801
+16:26:41.257 [main] INFO  - Authentication API response code:200
+16:26:41.257 [main] INFO  - Authentication API response message:HTTP/1.1 200 OK
+16:26:42.395 [main] INFO  - Respnse :{"token":"defc058c8b1c539"}
+16:26:42.396 [main] INFO  - Access Token :defc058c8b1c539
+16:26:42.396 [main] INFO  - Authentication API response code:200
+16:26:42.397 [main] INFO  - Authentication API response message:HTTP/1.1 200 OK
+16:26:42.739 [main] INFO  - ######################Performing Create Booking######################
+16:26:43.862 [main] INFO  - Response :{"bookingid":2678,"booking":{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}}
+16:26:43.862 [main] INFO  - Create Booking API responsecode :200
+16:26:43.863 [main] INFO  - Create Booking API  response message :HTTP/1.1 200 OK
+16:26:43.864 [main] INFO  - Bookingid:2678
+16:26:43.897 [main] INFO  - ######################Performing Get Booking######################
+16:26:43.898 [main] INFO  - Booking id:2678
+16:26:45.173 [main] INFO  - Response :{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+16:26:45.173 [main] INFO  - Get booking responsecode :200
+16:26:45.173 [main] INFO  - Get booking response message :HTTP/1.1 200 OK
+16:26:45.174 [main] INFO  - Booking id retrived value are:
+16:26:45.174 [main] INFO  - Booking id retrived firstname:Jim
+16:26:45.174 [main] INFO  - Booking id retrived lastname:Brown
+16:26:45.187 [main] INFO  - ######################Performing Update Booking######################
+16:26:45.189 [main] INFO  - Access token value is:defc058c8b1c539
+16:26:46.399 [main] INFO  - Response :{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+16:26:46.399 [main] INFO  - UpdateBooking responsecode :200
+16:26:46.399 [main] INFO  - UpdateBooking response message :HTTP/1.1 200 OK
+16:26:46.400 [main] INFO  - Booking id updated value are:
+16:26:46.400 [main] INFO  - Booking id updated firstname:James
+16:26:46.400 [main] INFO  - Booking id updated lastname:Brown
+16:26:46.402 [main] INFO  - Booking id Original value are:
+16:26:46.402 [main] INFO  - Booking id Original firstname:Jim
+16:26:46.403 [main] INFO  - Booking id Original lastname:Brown
+16:26:46.416 [main] INFO  - ######################Performing Delete Booking######################
+16:26:47.640 [main] INFO  - Response :Created
+16:26:47.641 [main] INFO  - UpdateBooking responsecode :201
+16:26:47.641 [main] INFO  - UpdateBooking response message :HTTP/1.1 201 Created
+16:26:48.843 [main] INFO  - Response :Not Found
+16:26:48.844 [main] INFO  - After delete Get booking response code :404
+16:26:48.844 [main] INFO  - After delete Get booking response message :HTTP/1.1 404 Not Found
